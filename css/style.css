@@ -40,9 +40,14 @@ body {
 }
 
 /* Cards */
+.row {
+    margin: 0 -4px;
+}
+
 .card {
+    margin: 15px 4px;
     background-color: black;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 8px);
     height: 90px;
     float: left;
 }
