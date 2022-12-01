@@ -45,6 +45,7 @@ body {
 }
 
 .card {
+    box-shadow: 0 0 10px;
     margin: 20px 12px;
     background-color: black;
     width: calc(100% / 3 - 24px);
