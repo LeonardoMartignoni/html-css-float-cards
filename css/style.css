@@ -42,8 +42,9 @@ body {
 /* Cards */
 .card {
     background-color: black;
-    width: 320px;
+    width: calc(100% / 3);
     height: 90px;
+    float: left;
 }
 .card > img {
     float: left;
